@@ -1,2 +1,3 @@
-# fcc-rwd-portfolio
-## My freeCodeCamp portfolio for the Responsive Web Design module
+# My freeCodeCamp portfolio 
+
+This is the final project for the Responsive Web Design module
