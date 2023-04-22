@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META tags -->
+        <meta charset="utf-8">
+        <!-- Instructions for web scrapers -->
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="This site is currently a repository for my
+        Web Development projects and a platform for my Web Developer portfolio but 
+        will also act as a future Blog for my life in Portugal, a country I have 
+        been living in for six years">
+        <meta name="author" content="Chris Sutcliffe">
+        <!-- display on mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- link to Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Archivo+Black&family=Lora&display=swap" rel="stylesheet">
+        <!-- link to the stylesheet(s) -->
+        <link rel="stylesheet" type="text/css" href="css/main-styles.css">
+        <!-- title displayed in browser tab -->
+        <title>Personal Portfolio</title>
+    </head>
+    <body>
+        <header class="nav-header flex" role="banner">
+            <div id="logo-wrapper">
+                <img id="logo" class="logo" src="images/cip-logo-color.svg" alt="Chris in Portugal logo"> 
+            </div>
+            <!-- MAIN navigation -->
+            <nav id="navbar" role="navigation">
+                <ul class="nav-list flex">
+                    <li><a class="nav-links" href="#welcome-section">HOME</a></li>
+                    <li><a class="nav-links" href="#projects">PROJECTS</a></li>
+                    <li><a class="nav-links" href="#about">ABOUT</a></li>
+                    <li><a href="#contact"><button class="call-to-action1 no-fill">Contact Me</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- HERO section -->
+        <section id="welcome-section" class="welcome-section">
+            <div class="welcome-headings-container">
+                <span class="intro-text gray">Hi, my name is</span>
+                <h1>Chris Sutcliffe.<br>
+                    Front-end Web Developer.</h1> 
+                <p class="subhead gray">I create responsive websites that concentrate on the users' 
+                experience by providing intuitive navigation and a clear indication 
+                of the purpose and benefits of the site.</p>
+            </div>
+            <div class="welcome-buttons-container">
+                <ul class="cta-buttons-gap flex">
+                    <li><a href="#projects"><button class="call-to-action1 filled">View Portfolio</button></a></li>
+                    <li><a href="#contact"><button class="call-to-action1 no-fill">Contact Me</button></a></li>
+                </ul>
+            </div>
+        </section>
+        <main role="main">
+            <!-- PROJECTS section -->
+            <section id="projects">
+                <h2>projects.</h2>
+                <div class="project-tile grid left-span-2">
+                    <article class="image-content">
+                        <h3>A Product Landing Page</h3>  
+                        <img class="card-img" src="screenshots/landing-page.jpg" alt="Photo of Landing Page Web site">
+                        <h4>Technologies: HTML, CSS</h4>
+                    </article>
+                    <article class="text-content">
+                        <h4>freeCodeCamp</h4>  
+                        <p>Requirements: Build a Product Landing Page that includes a 
+                        form element that requires a valid email address as input, 
+                        includes an embedded product video, uses at least one media query, 
+                        and utilises CSS Flexbox at least once.</p>
+                        <p>Method: I created a responsive design utilising CSS Flexbox 
+                        as a flexible layout tool to distribute and align items in the menu, 
+                        footer, about, and deals sections. I implemented a media query 
+                        for correct display on smaller screens. The design is my own, 
+                        as is the artwork, and it features my guitars.</p>
+                        <ul class="cta-buttons-gap flex">
+                            <li><a href="https://testpilotuk.github.io/fcc-rwd-landing-page/" target="_blank"><button class="call-to-action2">View Page</button></a></li>
+                            <li><a href="https://github.com/testpilotuk/fcc-rwd-landing-page" target="_blank"><button class="call-to-action2">View Code</button></a></li>
+                        </ul>
+                    </article>
+                </div> 
+                <div class="project-tile grid right-span-2">
+                    <article class="text-content">
+                        <h4>freeCodeCamp</h4>
+                        <p>Requirements: Build a Technical Document that allows 
+                        for navigation between document sections; the navbar must 
+                        always be visible; the document must contain code examples 
+                        together with explanations; and the document must contain at 
+                        least one media query.</p>
+                        <p>Method: I created a document based on my 
+                        <a href="https://github.com/testpilotuk/myVoidLinuxBup/wiki" target="_blank">GitHub Wiki Page</a>  
+                        and used CSS positioning to provide an 'always available' navigation pane. 
+                        I also added a media query to allow for smooth scrolling.</p>
+                        <ul class="cta-buttons-gap flex">
+                            <li><a href="https://testpilotuk.github.io/fcc-rwd-technical-document/" target="_blank"><button class="call-to-action2">View Page</button></a></li>
+                            <li><a href="https://github.com/testpilotuk/fcc-rwd-technical-document" target="_blank"><button class="call-to-action2">View Code</button></a></li>
+                        </ul>
+                    </article>
+                    <article class="image-content">
+                        <h3>A Technical Document</h3> 
+                        <img class="card-img" src="screenshots/tech-page.jpg" alt="">
+                        <h4>Technologies: HTML, CSS</h4>
+                    </article>
+                </div> 
+                <div class="project-tile grid left-span-2">
+                    <article class="image-content">
+                        <h3>A Tribute Page</h3> 
+                        <img class="card-img" src="screenshots/tribute-page.jpg" alt="">
+                        <h4>Technologies: HTML, CSS</h4>
+                    </article>
+                    <article class="text-content">
+                        <h4>freeCodeCamp</h4> 
+                        <p>Requirements: Build a Tribute Page with at least one image 
+                        that includes an image caption and resizes responsively. 
+                        Provide an external link that opens in a new tab for additional 
+                        information on the subject.</p>
+                        <p>Method: I used a combination of HTML span and list elements 
+                        together with CSS Flexbox to create a responsive layout and a 
+                        uniform discography design.</p>
+                        <ul class="cta-buttons-gap flex">
+                            <li><a href="https://testpilotuk.github.io/fcc-rwd-tribute-page/" target="_blank"><button class="call-to-action2">View Page</button></a></li>
+                            <li><a href="https://github.com/testpilotuk/fcc-rwd-tribute-page" target="_blank"><button class="call-to-action2">View Code</button></a></li>
+                        </ul>
+                    </article>
+                </div> 
+                <div class="project-tile grid right-span-2">
+                    <article class="text-content">
+                        <h4>freeCodeCamp</h4> 
+                        <p>Requirements: Build a Survey Form to collect user input, 
+                        including a name, a valid email address, and a valid integer number. 
+                        The page should provide an error message for incorrect inputs. 
+                        Additionally, the form should include at least one drop-down element, 
+                        two radio buttons, a series of checkbox elements, a textarea, and a 
+                        submit button.</p>
+                        <p>Method: I chose a subject that was familiar to me and created a form, 
+                        leveraging valid HTML form elements to create the functionality and CSS 
+                        to describe the page presentation.</p>
+                        <ul class="cta-buttons-gap flex">
+                            <li><a href="https://testpilotuk.github.io/fcc-rwd-survey-form/" target="_blank"><button class="call-to-action2">View Page</button></a></li>
+                            <li><a href="https://github.com/testpilotuk/fcc-rwd-survey-form" target="_blank"><button class="call-to-action2">View Code</button></a></li>
+                        </ul>
+                    </article>
+                    <article class="image-content">
+                        <h3>A Survey Form</h3> 
+                        <img class="card-img" src="screenshots/survey-form.jpg" alt="">
+                        <h4>Technologies: HTML, CSS</h4>
+                    </article>
+                </div> 
+            </section>
+            <section id="about">
+                <h2>about.</h2>
+                <div class="about-tile flex">
+                    <!-- About-me left column -->
+                    <div class="photo-frame">
+                        <img class="card-img" src="images/me-selfie-home.jpg" alt="Photo of the author"> 
+                    </div> 
+                    <!-- About-me right column -->
+                    <article class="about-me flex">
+                        <p>I am a developer who is an ex-pat from the UK with a love 
+                        of learning and creating things combined with the self-discipline 
+                        to be task- and customer-focused which I attribute to my years 
+                        of military service.</p>
+                        <p>I like learning new things and solving challenges, and my 
+                        enthusiasm only grows the more I learn.</p>
+                        <p>Technologies I have learned so far on my web development path:</p>
+                        <div class="tech-logo-wrapper flex">
+                            <img class="tech-logo" src="images/HTML5_Logo.svg" alt="HTML 5 Logo"> 
+                            <img class="tech-logo" src="images/css-3-logo-svgrepo-com.svg" alt="CSS 3 Logo"> 
+                            <img class="tech-logo" src="images/github-mark.svg" alt="Github Logo"> 
+                        </div>
+                        <ul class="cta-buttons-gap flex">
+                            <li><a href="#projects"><button class="call-to-action1 filled">View Portfolio</button></a></li>
+                            <li><a href="#contact"><button class="call-to-action1 no-fill">Contact Me</button></a></li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>contact.</h2>
+                <div class="profile-wrapper flex">
+                    <a class="profile-link" target="_blank" href="https://github.com/testpilotuk">
+                        <img class="profile-logo" src="images/github.svg" alt="Github Logo"> 
+                    </a>
+                    <a class="profile-link" target="_blank" href="https://www.freecodecamp.org/testpilotuk">
+                        <img class="profile-logo" src="images/free-code-camp.svg" alt="Free Code Camp Logo"> 
+                    </a>
+                </div>
+                <h3 class="magenta">Get in touch</h3>
+                <!-- FORM starts -->
+                <form id="contact-form" class="contact-form flex">
+                    <fieldset class="info">
+                        <!-- Text fields -->
+                        <label id="name-label" for="name"><h4>Name: </h4><input id="name" type="text" name="name" required placeholder="Full Name"></label>
+                        <label id="email-label" for="email"><h4>Email: </h4><input id="email" type="email" name="email" required placeholder="Email Address"></label>
+                    </fieldset>
+                    <fieldset class="message-text">
+                        <label for="more-info"><h4>Message</h4><textarea id="more-info" name="more-info" rows="5" cols="55" placeholder="Write your message here..."></textarea></label>
+                        <br>
+                        <input class="call-to-action1 filled" type="submit" id="submit" value="Send Email">
+                    </fieldset>
+                </form>
+                <!-- FORM ends -->
+            </section>
+        </main>
+        <footer role="contentinfo">
+            <div class="footer-container">
+                <div class="big-foot grid">
+                    <img class="logo" src="images/cip-logo-color.svg" alt="Chris in Portugal logo"> 
+                    <address>
+                        <h4>Contact</h4>
+                        <p>Location: Lousã, Portugal</p>
+                        <p>Email: cbssignup@example.org</p>
+                        <a class="profile-link" target="_blank" href="https://github.com/testpilotuk">
+                            <img class="profile-logo" src="images/github.svg" alt="Github Logo"> 
+                        </a>
+                        <a class="profile-link" target="_blank" href="https://www.freecodecamp.org/testpilotuk">
+                            <img class="profile-logo" src="images/free-code-camp.svg" alt="Free Code Camp Logo"> 
+                        </a>
+                    </address>
+                    <nav>
+                        <h4>Site Map</h4>
+                        <ul>
+                            <li><a class="nav-links" href="#welcome-section">HOME</a></li>
+                            <li><a class="nav-links" href="#about">ABOUT</a></li>
+                            <li><a class="nav-links" href="#contact">CONTACT</a></li>
+                            <li><a class="cta2-link" href="#projects"><button class="call-to-action1 filled">View Portfolio</button></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="little-foot flex">
+                <p>© 2023 Chris Sutcliffe</p>
+                <ul id="footer-links" class="nav-links flex">
+                    <li><a class="nav-link" href="https://www.freeprivacypolicy.com/live/9308e850-5771-4ba9-a8b3-6454f2f443db" target="_blank">Privacy Notice</a></li>
+                    <li><a class="nav-link" href="https://www.freeprivacypolicy.com/live/f5150f04-5872-424e-b30a-ac4751a31ac6" target="_blank">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
